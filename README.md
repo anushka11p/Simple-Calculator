@@ -1,25 +1,19 @@
-# Simple-Calculator
+# Simple Java Calculator 🖩
 
-A basic console-based calculator made in Java!
+A basic **console-based calculator** made in Java!
 
 This program lets you:
 
-Add, subtract, multiply, and divide two numbers
+* Add, subtract, multiply, and divide two numbers
+* Handle division by zero safely
+* Enter numbers and operators easily through the console
 
-Handle division by zero safely
+**How to use:**
 
-Enter numbers and operators easily through the console
+1. Run the program
+2. Enter the first number
+3. Enter an operator (`+`, `-`, `*`, `/`)
+4. Enter the second number
+5. See the result instantly!
 
-How to use:
-
-Run the program
-
-Enter the first number
-
-Enter an operator (+, -, *, /)
-
-Enter the second number
-
-See the result instantly!
-
-Perfect for beginners who want to practice Java basics like Scanner, switch statements, and basic arithmetic.
+Perfect for beginners who want to practice Java basics like **Scanner, switch statements, and basic arithmetic**.
