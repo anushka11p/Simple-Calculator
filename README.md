@@ -1,51 +1,19 @@
-import java.util.Scanner;
-public class SimpleCalculator {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter the first number: ");
-        double num1 = sc.nextDouble();
+# Simple Java Calculator 🖩
 
-        System.out.println("enter an operator(+,-,*,/): ");
-        char operator = sc.next().charAt(0);
+A basic **console-based calculator** made in Java!
 
-        System.out.println("enter second number: ");
-        double num2= sc.nextDouble();
+This program lets you:
 
-        double result;
+* Add, subtract, multiply, and divide two numbers
+* Handle division by zero safely
+* Enter numbers and operators easily through the console
 
-        switch(operator){
-            case '+':
-            result= num1 + num2;
-            System.out.println("result: " + result);
-            break;
-        
+**How to use:**
 
-        case '-':
-        result= num1-num2;
-        System.out.println("result: "+ result);
-        break;
+1. Run the program
+2. Enter the first number
+3. Enter an operator (`+`, `-`, `*`, `/`)
+4. Enter the second number
+5. See the result instantly!
 
-        case '*':
-        result = num1*num2;
-        System.out.println("result: "+ result);
-        break;
-
-        case '/':
-        if (num2 != 0) {
-            result = num1 / num2;
-            System.out.println("result: "+ result);
-        }
-        else{
-            System.out.println("invalid can't be devided by 0");
-        }
-        break;
-
-        default:
-        System.out.println("invalid input");
-        break;
-    }
-
-
-    sc.close();
-        }
-}
+Perfect for beginners who want to practice Java basics like **Scanner, switch statements, and basic arithmetic**.
